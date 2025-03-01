@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="Portfolio.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="Portfolio-resurser/Priscilla_favicon.png"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Priscilla Carlsson</title>
+  </head>
+
+  <body>
+    <nav>
+      <a href="Portfolio.html">
+        <picture>
+          <source
+            srcset="Portfolio-resurser/Logo_large.png"
+            media="(min-width: 500px)"
+          />
+          <img
+            src="Portfolio-resurser/Logo_small.png"
+            alt="Logotyp Priscilla Carlsson"
+          />
+        </picture>
+      </a>
+
+      <section class="nav-links">
+        <ul>
+          <a href="Portfolio-aboutme.html" class="nav-button">About me</a>
+          <a href="Portfolio-mywork.html" class="nav-button-current">My work</a>
+          <a href="#footer" class="nav-button">Contact</a>
+        </ul>
+      </section>
+    </nav>
+
+    <main class="project-main">
+      <section class="overview">
+        <div class="text-section">
+          <h1>Wanderlust airlines</h1>
+          <p>Website and booking process of an adventure airline.</p>
+          <div class="tags">
+            <p class="skills">UX-design</p>
+            <p class="skills">Competitive benchmark</p>
+            <p class="skills">Survey</p>
+            <p class="skills">Usability testing</p>
+            <p class="skills">Customer journey map</p>
+            <p class="skills">Prototyping</p>
+            <p class="tools">Figma</p>
+          </div>
+          <h3>Timeline</h3>
+          <p>8 months (2021)</p>
+          <h3>Goal</h3>
+          <p>
+            To be the obvious choice for backpackers when booking their next
+            flight. A booking process that is fast and intuitive with the target
+            user in mind.
+          </p>
+          <h3>Context</h3>
+          <p>
+            Student project conducted during the course at The UX Design
+            Institute
+          </p>
+        </div>
+        <img
+          src="Portfolio-resurser/Wireframe Wanderlust Complete.png"
+          style="width: 100%"
+        />
+      </section>
+
+      <section class="process">
+        <h2>Research</h2>
+        <p>
+          <b>Competitive benchmark.</b> Since backpackers usually have to be
+          considerate of how much they spend, I chose to benchmark three budget
+          airlines and one aggregator (Norwegian, RyanAir, Pegasus Airlines and
+          Momondo). The objective of this research was to benefit from existing
+          best practices and to identify which pitfalls to avoid.
+        </p>
+        <img
+          src="Portfolio-resurser/Competitive Benchmark Wanderlust.PNG"
+          style="width: 100%"
+        />
+        <a href="Portfolio-resurser/Competitive Benchmark - Desktop.pdf"
+          >See complete competitive benchmark</a
+        >
+        <p>
+          It was quite suprising how different the websites were. I found some
+          similarities that gave me an idea about which conventions there are
+          that must be followed, and also a lot of inspiration. There was also
+          many not so great features that I instantly felt like I needed to
+          avoid. However, there are some aspects that I can understand that they
+          included from a pure business viewpoint, such as the "Don't miss out"
+          model-box when you don't want to make a seat selection. The biggest
+          take away was to make the interface clean and simple to understand,
+          and to avoid annoying ads or forced memberships. As stated above, I
+          understand that those aspects are probably placed there out of
+          business aspects.
+        </p>
+
+        <img src="Portfolio-resurser/Survey pie.JPG" style="width: 100%" />
+        <a href="Portfolio-resurser/Survey answers Airline.pdf"
+          >See complete survey</a
+        >
+        <p>
+          <b>Survey.</b>To learn more about the goals of the targeted group and
+          which features they use most frequently, the objective of the survey
+          was to find out the following:
+        </p>
+        <p class="list">
+          - Which tasks are usually done on the computer vs which are done on
+          the mobile. This tells me what to prioritize on the hompage.<br /><br />
+          - Which context they usually are in when they visit an airline
+          website, to know what to take into consideration.<br /><br />
+          - Pitfalls to avoid<br /><br />
+          - Which information is most important when looking for a flight, to
+          make this information stand out on the page.<br /><br />
+          - What is usually purchased when booking a flight, to know how to
+          organize the workflow.
+        </p>
+        <p>
+          The survey showed that users use a computer to check prices, dates or
+          travelling options. Also to check-in, book flights and to secure a
+          safe payment. The context of use was usually at home. Pitfalls to
+          avoid is to not show the full price upfront, an aestethically
+          unpleasing website and rules and policies presented in an
+          non-understandable way. Most important information was price and then
+          dates. If anything extra was purchased it was usually a check-in bag.
+          The participants were recruited amongst my friends, specifically
+          friends that I knew had traveled alot. The survey had 7 participants.
+        </p>
+        <img src="Portfolio-resurser/Usability test.jpg" style="width: 100%" />
+        <a>The clip is shared upon request.</a>
+        <p>
+          <b>Usability test.</b>The test was conducted in person. The objective
+          was to learn about the context of use of the target group as well as
+          their goals and behaviour. The questions and tasks centered around
+          longer one-way flights for one or two travellers to create a
+          appropritate context.
+        </p>
+        <p class="list">
+          Most important findings:<br /><br />
+          - The page should not be overwhelmed by ads or too much information,
+          and the important information should stand out in the form of bigger
+          letters or by being more colorful.The user wanted to be sure to not
+          miss any important information due to former mistakes and the process
+          was time-consuming since it was difficult to prioritize the
+          information. Price is the most influencial factor when choosing a
+          flight, but it is also important that the date and time is clearly
+          displayed to not risk missing the flight. Regarding this the itinerary
+          was a helpful element of the process. <br /><br />
+          - The user normally only adds a cabin bag and a check-in bag, and
+          wouldn't normally make the ticket refundable. The differences between
+          the fare types were too big.​<br /><br />
+          - It is helpful when the calendar on the homepage shows which dates
+          are available and cheaper. The mental model for lower prices is the
+          color green.
+        </p>
+        <h2>Define</h2>
+        <p>
+          <b>Notes and affinity diagram.</b> To structure the research data each
+          finding was noted on a post-it and tagged as a pain point or a
+          positive.The color of the post-it indicates the source of the finding.
+          It was first laid out as an overview, then a first grouping was made.
+          Afterwards, adjustments were made to form the final groupings and they
+          were given category names. This was conducted by myself.
+        </p>
+        <img
+          src="Portfolio-resurser/Affinity diagram picture.PNG"
+          style="width: 100%"
+        />
+        <a href="Portfolio-resurser/Affinity diagram - Long version.pdf"
+          >See complete affinity diagram</a
+        >
+        <p>
+          The categories outlined which parts of the process that was important
+          to focus on when designing: Search/select dates, fare types, search
+          again bar, price, flight time, search time, itinerary, luggage,
+          membership, categories, menu and seat option. The last categories
+          could be applied throughout the whole booking process: behaviour,
+          aestethics, flow, communication, and technical.<br /><br />
+        </p>
+        <p class="quote">
+          <i class="fas fa-quote-right"></i><br /><br />
+          You've got some good notes within your affinity diagram. The tags in
+          the groupings is great to help establish the positive and negative
+          points<br /><br />
+          - Student success team of The UX Design Institute
+        </p>
+        <p>
+          <b>Customer journey map.</b> To structure the analysis of the data
+          further, a customer journey map was made that showcases the average
+          users experience. Since it visualizes the data in chronological order
+          it makes it more clear where the users flow easily and where the road
+          blocks are.
+        </p>
+        <img
+          src="Portfolio-resurser/Customer journey map picture.PNG"
+          style="width: 100%"
+        />
+        <a href="Portfolio-resurser/Customer journey map - Final version.pdf"
+          >See complete customer journey map</a
+        >
+        <p>
+          The customer journey map shows that the road blocks are usually at the
+          point where the user has made a search and are looking thorugh the
+          flight options and also when making a seat selection. Also the baggage
+          and meal selection, membership log-in and homepage was partly a road
+          block. In those areas more innovative ideas needed to be appllied. In
+          the remaining areas, passenger information and payment, mostly
+          conventions was followed.
+        </p>
+        <h2>Design and validate</h2>
+        <p>
+          <b>Flow diagram.</b> A primary use case was defined that included the
+          most crucial areas that was outlined in the affinity diagram and the
+          customer journey map. It starts from the homepage up until the booking
+          is confirmed, and includes seat selection.
+        </p>
+        <img
+          src="Portfolio-resurser/Flow diagram picture.jpg"
+          style="width: 100%"
+        />
+        <a href="Portfolio-resurser/Flow diagram.pdf"
+          >See complete customer journey map</a
+        >
+        <p>
+          The objective was to design a flow diagram that demonstrates how the
+          issues of this use case would be solved. The red dots represents each
+          action that is taken and the rest of the colors each represent a page.
+          ​ A flow diagram makes it apparent if the user will move through the
+          site easily or not, and it made me aware of minimizing the amount of
+          actions the user has to take.<br /><br />
+        </p>
+        <p>
+          <b>Interaction design.</b> The screens from the flow diagram was
+          sketched out by hand as a first draft. Insights from the affinity
+          diagram and the customer journey map was also taken into consideration
+          since not all the details could be addressed in the flow diagram.
+        </p>
+        <img
+          src="Portfolio-resurser/Interaction design pic.PNG"
+          style="width: 100%"
+        />
+        <a href="Portfolio-resurser/Interaction design sketch.pdf"
+          >See lo-fi sketches</a
+        >
+        <p>
+          It is a fast way of testing the layout and visual hiearchy that was
+          imagined during the previous step. Amongst other things I tested how
+          to make it clear what the flight time and the stopover time is,
+          without them being confused with each other.
+        </p>
+        <p class="quote">
+          <i class="fas fa-quote-right"></i><br /><br />
+          A good level of consideration went into your sketches here, nice work
+          Priscilla. I can clearly see your thought process and they will be
+          helpful when it comes to building your prototype<br /><br />
+          - Student success team of The UX Design Institute
+        </p>
+        <p>
+          <b>Prototype.</b> To be able to test the solution, an interactive
+          medium fidelity prototype was made. It tests basic interactions, the
+          layout, hierarchy and flow.
+        </p>
+        <div style="padding: 55% 0 0 0; position: relative">
+          <iframe
+            src="https://player.vimeo.com/video/688467907?h=b2da3f5da5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+            style="
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+            "
+            title="New Recording - 2022-03-15 16:44:22"
+          ></iframe>
+        </div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+        <p>
+          Mainly choice of colors was made at this stage, since most hade been
+          designed beforehand. The backdrop of the the homepage is a picture to
+          inspire the user of possible places to travel to and to elevate their
+          wanderlust further. The prototype has been updated after being tested.
+          The first version of the prototype is shown in the usability test.
+        </p>
+        <p>
+          <b>Usability test.</b> The objective was to test if the solution
+          helped the user reach their goal, and what could be improved.
+        </p>
+        <img
+          src="Portfolio-resurser/Printscreen Usability test Prototype.png"
+          style="width: 100%"
+        />
+        <a>The clip is shared upon request</a>
+        <p>
+          During the test I found out that the illustration of price variation
+          between dates was not comprehendeble, which was a valuable insight.
+          After the test I went back to the iterative stage and redesigned some
+          parts of the prototype.
+        </p>
+        <h2>Deliver</h2>
+        <p>
+          <b>Wireframes.</b> The objective was to define and communicate the
+          rules, feedback and form design.
+        </p>
+        <img
+          src="Portfolio-resurser/Printscreen wireframes.JPG"
+          style="width: 100%"
+        />
+        <a href="Portfolio-resurser/Wanderlust Wireframes.pdf"
+          >See complete wireframes</a
+        >
+        <p class="quote">
+          <i class="fas fa-quote-right"></i><br /><br />
+          The comments are clearly communicated and will be helpful to any
+          developer building the website<br /><br />
+          - Student success team of The UX Design Institute
+        </p>
+        <h2>Reflections</h2>
+        <p>
+          To gain richer insights I would have conducted more research,
+          especially more usability tests but also a larger number of survey
+          participants. I would also make several design iterations followed by
+          usability tests to be more confident of the designs success rate.
+          Also, I think it could be beneficial to split up the booking process
+          and make usability tests that focus on fewer tasks. That way the
+          research goals are more precise and the observations are richer.
+        </p>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <section>
+        <h2>Let's connect!</h2>
+        <form>
+          <div class="form-token">
+            <label for="name">Name</label>
+            <input type="text" class="input" />
+          </div>
+
+          <div class="form-token">
+            <label for="email">E-mail</label>
+            <input type="text" />
+          </div>
+
+          <div class="form-token">
+            <label for="subject">Subject</label>
+            <input type="text" class="input" />
+          </div>
+
+          <div class="form-token">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" cols="30"></textarea>
+          </div>
+
+          <button>Send</button>
+        </form>
+      </section>
+
+      <div id="social">
+        <a
+          href="mailto:priscilla.carlsson@gmail.com"
+          target="_blank"
+          aria-label="Mailto"
+        >
+          <i class="fas fa-envelope"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/priscilla-carlsson-61673b34"
+          target="_blank"
+          aria-label="LinkedIn"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a
+          href="https://github.com/priscarl2024"
+          target="_blank"
+          aria-label="GitHub"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>

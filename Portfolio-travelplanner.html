@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="Portfolio.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="Portfolio-resurser/Priscilla_favicon.png"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Priscilla Carlsson</title>
+  </head>
+
+  <body>
+    <nav>
+      <a href="Portfolio.html">
+        <picture>
+          <source
+            srcset="Portfolio-resurser/Logo_large.png"
+            media="(min-width: 500px)"
+          />
+          <img
+            src="Portfolio-resurser/Logo_small.png"
+            alt="Logotyp Priscilla Carlsson"
+          />
+        </picture>
+      </a>
+
+      <section class="nav-links">
+        <ul>
+          <a href="Portfolio-aboutme.html" class="nav-button">About me</a>
+          <a href="Portfolio-mywork.html" class="nav-button-current">My work</a>
+          <a href="#footer" class="nav-button">Contact</a>
+        </ul>
+      </section>
+    </nav>
+
+    <main class="project-main">
+      <section class="overview">
+        <div class="text-section">
+          <h1>Travel planner</h1>
+          <p>
+            A re-design of Stockholms official public transport app,
+            specifically the user flow of planning a trip.
+          </p>
+          <div class="tags">
+            <p class="skills">UX-design</p>
+            <p class="skills">Research</p>
+            <p class="skills">Competitive benchmark</p>
+            <p class="skills">Customer journey map</p>
+            <p class="skills">Prototyping</p>
+            <p class="tools">Figma</p>
+          </div>
+          <h3>Timeline</h3>
+          <p>3 months (2022)</p>
+          <h3>Goal</h3>
+          <p>
+            To design an easy and intuitive travel planner for public transport
+            in Stockholm
+          </p>
+          <h3>Context</h3>
+          <p>
+            To build on what I learned from my first UX-project I wanted to:<br /><br />
+
+            - Test a shorter process to get richer insights from each
+            observation​<br />​<br />
+
+            - Take more detailed notes of every step of my process and the
+            thoughts behind them​<br />​<br />
+
+            - Gather data from more users by using reviews on Google Play​
+          </p>
+        </div>
+        <img
+          src="Portfolio-resurser/Wireframe Travel Planner.png"
+          style="width: 100%"
+        />
+      </section>
+
+      <section class="process">
+        <h2>So, let's learn from the good and the bad</h2>
+        <p>
+          I started with benchmarking 3 travel planner apps and collecting the
+          100 latest reviews of each app. One of them is the offical app for the
+          public transport in Stockholm: SL. The second app is City Mapper which
+          is a popular travel planner that can be used all over the world. And
+          the third one is Google Maps, which is not specifically a travel
+          planner but has that function as well and is a widely used app.
+        </p>
+        <img
+          src="Portfolio-resurser/Travel Planner Benchmarking.jpg"
+          style="width: 100%"
+        />
+        <p>Why these?</p>
+        <div class="highlightGroup">
+          <p class="highlight">
+            + 1 million downloads<br /><br />
+            To ensure that I gather helpful data I have picked apps that are
+            being used by a large amount of people
+          </p>
+          <p class="highlight">
+            High and low ratings<br /><br />
+            I want to learn which pitfalls to avoid as well as which best
+            practices there are
+          </p>
+          <p class="highlight">
+            Can be used in Stockholm<br /><br />
+            Since the usability testings will take place in Stockholm, they need
+            to function in this area
+          </p>
+        </div>
+        <p>The most important findings from benchmarking:</p>
+        <ul>
+          Conventions
+        </ul>
+        <li>Presented with a search bar and a map on the homepage</li>
+
+        <li>The departure location is preset to "My position" using the GPS</li>
+
+        <li>There is a switch symbol between departure and destination</li>
+
+        <li>The trip can be seen on a map</li>
+
+        <li>
+          The metro station symbol is placed on the beginning of each ride with
+          the metro
+        </li>
+
+        <ul>
+          Best practice
+        </ul>
+        <li>
+          Clear overview of duration, number of changes and types of
+          transportation
+        </li>
+
+        <li>Easy to reach search bar with right thumb</li>
+
+        <li>Easy access of favourite stations</li>
+
+        <li>Coloured line as a representations of the metro line</li>
+
+        <li>Number of stops available</li>
+
+        <ul>
+          Pitfalls
+        </ul>
+        <li>Clock picker takes time to scroll</li>
+
+        <li>The overview mistakes as part of detailed view of trip</li>
+
+        <li>Cluttered homepage</li>
+
+        <li>Live time confused with duration between stops</li>
+
+        <li>Time settings blends into the map</li>
+
+        <div class="picGroup">
+          <img
+            src="Portfolio-resurser/Citymapper Screen.jpg"
+            style="width: 30%"
+          />
+          <img src="Portfolio-resurser/SL Screen.jpg" style="width: 30%" />
+          <img src="Portfolio-resurser/Date picker.jpg" style="width: 30%" />
+        </div>
+        <a href="Portfolio-resurser/Benchmarking Travel Planner.pptx"
+          >Read more about the benchmarking</a
+        >
+        <p>
+          <b>And what do the users think?</b> Well, most reviews were bad ones.
+          But that is to be expected. After all, most times when people take the
+          time to leave a review it is because they are unhappy about something.
+          And usually those are the reviews the helps improve the product the
+          most!
+        </p>
+        <img
+          src="Portfolio-resurser/Travel planner review.JPG"
+          style="width: 70%"
+        />
+        <p>
+          The 100 latest reviews of each app was collected and then divided into
+          2 groups. Constructive/relevant and unconstructive/irrelevant. A
+          review just saying "Great!" or "Horrible!" for example is not that
+          helpful. The constructive and relevant reviews was then transformed
+          into notes, and grouped after theme.
+        </p>
+        <img
+          src="Portfolio-resurser/Affinity diagram picture - travel planner.jpg"
+          style="width: 100%"
+        />
+        <a href="Portfolio-resurser/Affinity diagram - travel planner.pdf"
+          >Read more about the structuring of data</a
+        >
+        <p>This is how the biggest themes in the research can be summed up:</p>
+        <div class="highlightGroup">
+          <p class="highlight">
+            <b>Incorrect results and directions</b><br /><br />
+            Many had difficulties finding even the most common stops, the
+            directions were wrong or didn't work at all, the wrong time were
+            shown, local buses or commuter train couldn't be seen in the app,
+            and error-message "can't understand the result" were shown.
+          </p>
+          <p class="highlight">
+            <b>Non-forthcoming</b><br /><br />
+            No warning about traffic disruptions causes a lot of discomfort, and
+            planning a trip ahead is difficult when the time indications are
+            live time.
+          </p>
+          <p class="highlight">
+            <b>Disservice</b><br /><br />
+            To start directions from "My position" instead of the the station is
+            more troublesome than helpful. More often than not it doesn't match
+            with the time it takes the user to get to the station.
+          </p>
+          <p class="highlight">
+            <b> Visualization of transport</b><br /><br />
+            Using the metro lines colors and symbols makes reading the
+            directions easier.
+          </p>
+          <p class="highlight">
+            <b>Shortcuts</b><br /><br />
+            To make searching faster favourite stops are popular, and favourite
+            route is also recuested as well as most recent searches.
+          </p>
+          <p class="highlight">
+            <b>Interactive</b><br /><br />
+            Appreciated when the app vibrates when you are approaching your stop
+            and notifies if the train is not on time.
+          </p>
+        </div>
+        <h2>Let's put some structure to it</h2>
+        <p>
+          The insights from all of the research were organized through a
+          customer journey map that places them in order and makes sure none of
+          them is forgotten while designing the screens
+        </p>
+        <img
+          src="Portfolio-resurser/Customer journey map - travel planner.png"
+          style="width: 100%"
+        />
+        <a href="Portfolio-resurser/Customer journey map - travel planner.png"
+          >See customer journey map</a
+        >
+        <h2>Ready, set - design!</h2>
+        <p>
+          Before the sketching could start, the screens were planned out through
+          a flow diagram. It describes every component and functions of the
+          screens and describes one typical user flow. During this, everything
+          in the customer journey map and the affinity diagram have been taken
+          into consideration.
+        </p>
+        <img
+          src="Portfolio-resurser/Flow diagram - travel planner.png"
+          style="width: 100%"
+        />
+        <a href="Portfolio-resurser/Flow diagram - travel planner.png"
+          >See flow diagram</a
+        >
+        <p>
+          <b> Low fidelity sketches.</b> To be able to iterate the design fast,
+          I chose to do a first draft with low fidelity sketches that
+          illustrates the flow diagram.
+        </p>
+        <img
+          src="Portfolio-resurser/Screen Sketches Travel planner.JPG"
+          style="width: 100%"
+        />
+        <a href="Portfolio-resurser/Screen Sketches Travel planner.JPG"
+          >See lo-fi sketches</a
+        >
+        <p>
+          <b> Prototype. </b>Building on the first draft of the sketches, a
+          medium fidelity prototype was made. The flow includes some extra
+          sketches to fully illustrate the features described in the flow
+          diagram.
+        </p>
+        <img
+          src="Portfolio-resurser/Screens mock-up travel planner.png"
+          style="width: 100%"
+        />
+        <a href="Portfolio-resurser/Screen prototypes travel planner.jpg"
+          >See hi-fi sketches</a
+        >
+        <h2>Reflections</h2>
+        <p>
+          Would the project have more resources I would have conducted several
+          usability tests moving forward to test the design and make iterations
+          on the way. Before the test I would interview the user. The purpose of
+          the design of the test script is to get to know if it is a frequent
+          user of these kinds of apps, in which context they use the app and for
+          what purpose they usually use the apps. Also, which features they want
+          in this kind of app, pitfalls to avoid when designing and what the
+          mental model is when planning a trip. I wanted to test the "My
+          position" function and therefore gave them an exact adress to search
+          from. I also wanted to test more functions and chose the date-picker.
+          <a href="Portfolio-resurser/Test Script travel planner.pdf"
+            >See test script.</a
+          >
+        </p>
+        <div style="padding: 55.06% 0 0 0; position: relative">
+          <iframe
+            src="https://player.vimeo.com/video/750713116?h=a27b06aee2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+            style="
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+            "
+            title="Travel Planner Prototype"
+          ></iframe>
+        </div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <section>
+        <h2>Let's connect!</h2>
+        <form>
+          <div class="form-token">
+            <label for="name">Name</label>
+            <input type="text" class="input" />
+          </div>
+
+          <div class="form-token">
+            <label for="email">E-mail</label>
+            <input type="text" />
+          </div>
+
+          <div class="form-token">
+            <label for="subject">Subject</label>
+            <input type="text" class="input" />
+          </div>
+
+          <div class="form-token">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" cols="30"></textarea>
+          </div>
+
+          <button>Send</button>
+        </form>
+      </section>
+
+      <div id="social">
+        <a
+          href="mailto:priscilla.carlsson@gmail.com"
+          target="_blank"
+          aria-label="Mailto"
+        >
+          <i class="fas fa-envelope"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/priscilla-carlsson-61673b34"
+          target="_blank"
+          aria-label="LinkedIn"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a
+          href="https://github.com/priscarl2024"
+          target="_blank"
+          aria-label="GitHub"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>

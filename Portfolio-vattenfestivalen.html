@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="Portfolio.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="Portfolio-resurser/Priscilla_favicon.png"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Priscilla Carlsson</title>
+  </head>
+
+  <body>
+    <nav>
+      <a href="Portfolio.html">
+        <picture>
+          <source
+            srcset="Portfolio-resurser/Logo_large.png"
+            media="(min-width: 500px)"
+          />
+          <img
+            src="Portfolio-resurser/Logo_small.png"
+            alt="Logotyp Priscilla Carlsson"
+          />
+        </picture>
+      </a>
+
+      <section class="nav-links">
+        <ul>
+          <a href="Portfolio-aboutme.html" class="nav-button">About me</a>
+          <a href="Portfolio-mywork.html" class="nav-button-current">My work</a>
+          <a href="#footer" class="nav-button">Contact</a>
+        </ul>
+      </section>
+    </nav>
+
+    <main class="project-main">
+      <section class="overview">
+        <div class="text-section">
+          <h1>Nya vattenfestivalen</h1>
+          <p>
+            The concept of a new (or reborn) music festival in Stockholm, and a
+            responsive website with dynamic content.
+          </p>
+          <div class="tags">
+            <p class="skills">UX/UI-design</p>
+            <p class="skills">Visual identity</p>
+            <p class="skills">Accessability</p>
+            <p class="tools">HTML</p>
+            <p class="tools">CSS</p>
+            <p class="tools">JS</p>
+            <p class="tools">API</p>
+          </div>
+          <h3>Timeline</h3>
+          <p>2 weeks (2025)</p>
+          <h3>Goal</h3>
+          <p>
+            To design and code an accessible website with a clear visual concept
+            for a music festival in Stockholm, and fetch data about the festival
+            from an API.
+          </p>
+          <h3>Context</h3>
+          <p></p>
+        </div>
+        <img
+          src="Portfolio-resurser/Wireframe Vattenfestivalen.jpg"
+          style="width: 100%"
+        />
+      </section>
+
+      <section class="process">
+        <h2>Links</h2>
+        <a href="https://github.com/priscarl2024/Musikfestivalen.git">Code</a
+        ><br />
+        <br />
+        <a href="https://vattenfestivalen.netlify.app/">Live-demo</a>
+        <h2>Visual identity</h2>
+        <p>
+          The modern revival of Vattenfestivalen merges Stockholm’s deep
+          connection to water with technology and music, creating a
+          contemporary, dynamic, and inclusive visual identity. The festival’s
+          color palette draws inspiration from the depths of water, featuring
+          deep navy and light aquamarine, complemented by neon pink and a soft
+          lemon yellow to add a modern, energetic feel. Typography balances
+          clarity and playfulness with a modern sans-serif font for readability
+          and a wave-like decorative typeface in the logotype to enhance the
+          sense of movement and flow. As a tribute to the festival’s history,
+          the iconic rubber duck with sunglasses makes a comeback—now in a
+          reimagined, stylized version that bridges nostalgia with the future of
+          the festival experience.
+        </p>
+        <img
+          src="Portfolio-resurser/Vattenfestivalen palette.png"
+          style="width: 30%"
+        />
+        <br />
+        <h2>Accessability</h2>
+        <p>
+          A WCAG audit was simulated using Lighthouse to evaluate the website's
+          accessibility and ensure compliance with WCAG 2.1 guidelines. After
+          analyzing the Lighthouse report, necessary adjustments were made to
+          enhance accessibility, such as improving contrast ratios, adding ARIA
+          labels, and ensuring correct heading structures. The WCAG audit played
+          a crucial role in refining the website’s inclusive design, making it
+          more user-friendly for all visitors.
+        </p>
+        <img
+          src="Portfolio-resurser/Vattenfestivalen-Accessability-before.jpg"
+          style="width: 50%"
+        />
+        <img
+          src="Portfolio-resurser/Vattenfestivalen-Accessability-after.jpg"
+          style="width: 50%"
+        />
+        <h2>Code process</h2>
+        <p>
+          As part of my learning process, I built an API integration using
+          JavaScript’s fetch method. Following a structured tutorial, I learned
+          how to send HTTP requests, handle responses, and dynamically update
+          the UI based on the fetched data. To improve security, we stored the
+          access token in local storage to prevent it from being exposed in the
+          URL or request headers. While local storage is not the most secure
+          method, this was an initial step in understanding how to handle
+          authentication and protect sensitive data.
+        </p>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <section>
+        <h2>Let's connect!</h2>
+        <form>
+          <div class="form-token">
+            <label for="name">Name</label>
+            <input type="text" class="input" />
+          </div>
+
+          <div class="form-token">
+            <label for="email">E-mail</label>
+            <input type="text" />
+          </div>
+
+          <div class="form-token">
+            <label for="subject">Subject</label>
+            <input type="text" class="input" />
+          </div>
+
+          <div class="form-token">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" cols="30"></textarea>
+          </div>
+
+          <button>Send</button>
+        </form>
+      </section>
+
+      <div id="social">
+        <a
+          href="mailto:priscilla.carlsson@gmail.com"
+          target="_blank"
+          aria-label="Mailto"
+        >
+          <i class="fas fa-envelope"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/priscilla-carlsson-61673b34"
+          target="_blank"
+          aria-label="LinkedIn"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a
+          href="https://github.com/priscarl2024"
+          target="_blank"
+          aria-label="GitHub"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>

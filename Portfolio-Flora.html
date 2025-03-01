@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="Portfolio.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="Portfolio-resurser/Priscilla_favicon.png"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Priscilla Carlsson</title>
+  </head>
+
+  <body>
+    <nav>
+      <a href="Portfolio.html">
+        <picture>
+          <source
+            srcset="Portfolio-resurser/Logo_large.png"
+            media="(min-width: 500px)"
+          />
+          <img
+            src="Portfolio-resurser/Logo_small.png"
+            alt="Logotyp Priscilla Carlsson"
+          />
+        </picture>
+      </a>
+
+      <section class="nav-links">
+        <ul>
+          <a href="Portfolio-aboutme.html" class="nav-button">About me</a>
+          <a href="Portfolio-mywork.html" class="nav-button-current">My work</a>
+          <a href="#footer" class="nav-button">Contact</a>
+        </ul>
+      </section>
+    </nav>
+
+    <main class="project-main">
+      <section class="overview">
+        <div class="text-section">
+          <h1>Flora</h1>
+          <p>
+            Responsive website for a flower shop with a subscription business
+            model.
+          </p>
+          <div class="tags">
+            <p class="skills">UI-design</p>
+            <p class="skills">Visual identity</p>
+            <p class="skills">Accessability</p>
+            <p class="tools">Figma</p>
+            <p class="tools">Auto-layout</p>
+          </div>
+          <h3>Timeline</h3>
+          <p>8 weeks (2024)</p>
+          <h3>Goal</h3>
+          <p>
+            To design a solution to a problem for a specific target group and
+            create a fitting visual identity.
+          </p>
+          <h3>Context</h3>
+          <p>
+            Group project (of two people) during my studies at Chas Academy.
+          </p>
+        </div>
+        <img
+          src="Portfolio-resurser/Wireframes Flora.jpg"
+          style="width: 100%"
+        />
+      </section>
+
+      <section class="process">
+        <h2>Target group and background</h2>
+        <p>
+          The target group was one of your own choosing. All choices ahead were
+          made with the target group in mind. A definition of the target group
+          was made along with user need statements that defines their needs and
+          goals. For this we created a persona called Felicia.
+        </p>
+        <img
+          src="Portfolio-resurser/Flora Target group.jpg"
+          style="width: 100%"
+        />
+        <img
+          src="Portfolio-resurser/Flora User need statements.jpg"
+          style="width: 100%"
+        />
+        <p>
+          With the user need statements in mind, we generated several ideas to
+          solve the target groups problem. We then went over the ideas, and
+          choose one that we refined a bit more and decided to go with the
+          subscription of flowers. We created a core description —a vision, if
+          you will— for this idea, to really convey the feeling we wish to
+          evoke.
+        </p>
+        <img
+          src="Portfolio-resurser/Flora Idea generation.jpg"
+          style="width: 100%"
+        />
+        <img
+          src="Portfolio-resurser/Flora Core description.jpg"
+          style="width: 100%"
+        />
+        <p>
+          We had noticed that most flower shops had an elegant sophisticated
+          estethic to them, while the obvious connection between a colorful
+          bouquet and youthful playfulness was overlooked. We wanted to use that
+          to stand out from the crowd and use the trends of organic graphic
+          forms to appeal to our target group.
+        </p>
+        <h2>Visual identity</h2>
+        <p>
+          To unite our vision of the visual identity and make it concrete we
+          started with creating a vision board with the core description as our
+          guide.
+        </p>
+        <img src="Portfolio-resurser/Flora Mind map.jpg" style="width: 100%" />
+        <img
+          src="Portfolio-resurser/Flora Visual identity.jpg"
+          style="width: 100%"
+        />
+        <p>
+          We wanted the logo to balance the modern and the retro touch perfectly
+          and started with testing several fonts and playing around with
+          distortion of the font to add an abstract feel to it. At this point
+          the name for the company was not chosen, so we used the working-name
+          of Anna. We iterated different designs of a flower, with one being too
+          retro and the other one being too scandinavian modest. We then
+          designed the "half-flower" that had the balance we were looking for.
+          The idea was a colorful logo to bring out the playfulness so we tested
+          different color combinations from the vision board.
+        </p>
+        <img
+          src="Portfolio-resurser/Flora Logo Process.jpg"
+          style="width: 100%"
+        />
+        <img
+          src="Portfolio-resurser/Flora Logo Colors.jpg"
+          style="width: 100%"
+        />
+        <img
+          src="Portfolio-resurser/Flora text typography.jpg"
+          style="width: 100%"
+        />
+        <img
+          src="Portfolio-resurser/Flora Design language.jpg"
+          style="width: 100%"
+        />
+
+        <p>
+          We struggled for some time with the idea of how many colors to include
+          in the brand. Many enough to convey the playful feeling of a colorful
+          bouquet, but few enough to create a strong recognizable brand. We
+          decided on three brand colors and two neutrals. The brand colors—pink,
+          orange, and green—were chosen to emphasize playfulness, joy,
+          innocence, and energy, while also reflecting a connection to nature.
+          The neutral tones are earthy, aligning well with the industry the
+          company operates in.
+        </p>
+        <img src="Portfolio-resurser/Flora Colors.jpg" style="width: 100%" />
+
+        <p>
+          To make sure we followed the guidelines of WCAG regarding
+          accessability we did a contrast-check of all the color combinations.
+          This was used as a basis for decision-making of which colors and
+          combinations to use on the most critical parts where perception is
+          paramount.
+        </p>
+        <img src="Portfolio-resurser/Flora Kontrast.png" style="width: 100%" />
+
+        <h2>Design and solutions</h2>
+        <p>
+          We started by sketching a rough architecture of the app and then
+          defined the user's subgoals for each screen, as well as the company's
+          objectives for the same. With this in mind, along with research on
+          best practices, we created several low-fidelity design sketches using
+          the Crazy 8 method. For example, the landing page:
+        </p>
+        <ul>
+          User goals
+        </ul>
+        <li>Understand the service</li>
+        <li>Start a subscription</li>
+        <li>Browse the offerings</li>
+        <ul>
+          Business goals
+        </ul>
+        <li>Create interest in the service</li>
+        <li>Encourage the user to subscribe</li>
+        <ul>
+          Best practice
+        </ul>
+        <li>
+          Remove the main navigation to guide the user where you want them to
+          go.
+        </li>
+        <li>
+          Use a “long sales letter” approach, i.e., a long homepage with
+          multiple sections featuring different types of information.
+        </li>
+        <li>
+          Incorporate plenty of white space to create a clean and spacious
+          design.
+        </li>
+        <li>
+          Ensure the page is scannable by using headings, bold or italicized
+          text, numbered or bulleted lists, and concise paragraphs.
+        </li>
+        <li>
+          Differentiate sections with separators or varying background colors to
+          create a visual hierarchy.
+        </li>
+        <li>
+          Include a Call to Action (CTA) and repeat it throughout the page for
+          emphasis.
+        </li>
+        <li>
+          Use a Hero product image, showcasing your signature product with the
+          highest value.
+        </li>
+        <li>
+          Begin with an introduction of the page and a brief presentation of who
+          you (the company) are.
+        </li>
+        <li>
+          Highlight the main offering and make it easy for the user to start
+          shopping.
+        </li>
+
+        <img
+          src="Portfolio-resurser/Flora Lo-fi wireframes.jpg"
+          style="width: 100%"
+        />
+        <p>
+          In our med-fi wireframes we tested the visual language in the layout
+          by combining ideas from the low-fidelity sketches. We conducted "user
+          tests" with our sync group and made further adjustments based on the
+          feedback we received. Finally, we used these iterations to test the
+          colors in the user interface.<br />
+          The findings included adding a back-button and a add and subtract
+          button in the basket, as well as to remove the "keep shopping"-button
+          since we now have the back-button. It also came to light that the
+          add-button and the price could switch place to make it easier for the
+          user to click the button.
+        </p>
+        <img
+          src="Portfolio-resurser/Flora Med-fi wireframes.jpg"
+          style="width: 100%"
+        />
+        <p>
+          We made components and a librabry of them based on design patterns and
+          other best practices.
+        </p>
+        <img
+          src="Portfolio-resurser/Flora Design patterns components.jpg"
+          style="width: 100%"
+        />
+        <h2>Prototype and hi-fi wireframes</h2>
+        <p>
+          We applied the colors and made the hi-fi frames using auto-layout.
+        </p>
+        <img
+          src="Portfolio-resurser/Flora Hi-fi wireframes.jpg"
+          style="width: 100%"
+        />
+        <img
+          src="Portfolio-resurser/Flora Hi-fi wireframes 2.jpg"
+          style="width: 100%"
+        />
+        <img
+          src="Portfolio-resurser/Flora Hi-fi wireframes 3.jpg"
+          style="width: 100%"
+        />
+      </section>
+    </main>
+
+    <footer id="footer">
+      <section>
+        <h2>Let's connect!</h2>
+        <form>
+          <div class="form-token">
+            <label for="name">Name</label>
+            <input type="text" class="input" />
+          </div>
+
+          <div class="form-token">
+            <label for="email">E-mail</label>
+            <input type="text" />
+          </div>
+
+          <div class="form-token">
+            <label for="subject">Subject</label>
+            <input type="text" class="input" />
+          </div>
+
+          <div class="form-token">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" cols="30"></textarea>
+          </div>
+
+          <button>Send</button>
+        </form>
+      </section>
+
+      <div id="social">
+        <a
+          href="mailto:priscilla.carlsson@gmail.com"
+          target="_blank"
+          aria-label="Mailto"
+        >
+          <i class="fas fa-envelope"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/priscilla-carlsson-61673b34"
+          target="_blank"
+          aria-label="LinkedIn"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a
+          href="https://github.com/priscarl2024"
+          target="_blank"
+          aria-label="GitHub"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="Portfolio.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="Portfolio-resurser/Priscilla_favicon.png"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Priscilla Carlsson</title>
+  </head>
+
+  <body>
+    <nav>
+      <a href="Portfolio.html">
+        <picture>
+          <source
+            srcset="Portfolio-resurser/Logo_large.png"
+            media="(min-width: 500px)"
+          />
+          <img
+            src="Portfolio-resurser/Logo_small.png"
+            alt="Logotyp Priscilla Carlsson"
+          />
+        </picture>
+      </a>
+
+      <section class="nav-links">
+        <ul>
+          <a href="Portfolio-aboutme.html" class="nav-button-current"
+            >About me</a
+          >
+          <a href="Portfolio-mywork.html" class="nav-button">My work</a>
+          <a href="#footer" class="nav-button">Contact</a>
+        </ul>
+      </section>
+    </nav>
+
+    <main class="aboutme-main">
+      <h1>Thank you for reaching out!</h1>
+    </main>
+  </body>
+
+  <footer id="footer">
+    <section>
+      <h2 id="contact-me">Let's connect!</h2>
+      <form action="https://formspree.io/f/xwpvdvyr" method="POST">
+        <div class="form-token">
+          <label for="name">Name</label>
+          <input type="text" name="name" class="input" required />
+        </div>
+
+        <div class="form-token">
+          <label for="email">E-mail</label>
+          <input type="text" name="email" required />
+        </div>
+
+        <div class="form-token">
+          <label for="subject">Subject</label>
+          <input type="text" name="subject" class="input" required />
+        </div>
+
+        <div class="form-token">
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            cols="30"
+            required
+          ></textarea>
+        </div>
+
+        <input type="hidden" name="_next" value="Portfolio-thankyou.html" />
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <div id="social">
+      <a
+        href="mailto:priscilla.carlsson@gmail.com"
+        target="_blank"
+        aria-label="Mailto"
+      >
+        <i class="fas fa-envelope"></i
+      ></a>
+      <a
+        href="https://www.linkedin.com/in/priscilla-carlsson-61673b34"
+        target="_blank"
+        aria-label="LinkedIn"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      <a
+        href="https://github.com/priscarl2024"
+        target="_blank"
+        aria-label="GitHub"
+        ><i class="fab fa-github"></i
+      ></a>
+    </div>
+  </footer>
+</html>
